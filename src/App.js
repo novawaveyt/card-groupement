@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch('https://choisirmongroupement.com/json_groupements.php')
     .then(response => response.json())
     .then(users => this.setState({grp : users}))
   }
