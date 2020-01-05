@@ -5,36 +5,66 @@
     background-color: #fff;
     border: 1px solid gray;
     border-radius: 5px;
-    padding: 25px;
+    padding: 0px;
     cursor: pointer;
     -moz-osx-font-smoothing: grayscale;
     backface-visibility: hidden;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
+    background-image:  url("https://choisirmongroupement.com/adm/img/gcard.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 335px;
+    width: 370px;
+    max-width: 370px;
 }
 
 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 100px;
+    //border: 1px solid #ddd;
+    border-radius: 57px;
+    width: 155px;
     max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+    position: absolute;
+    top: 80px; left: 160px;
+}
 
 a, u {
     text-decoration: none;
     color: #888;
 }
 
-h2 {
+.title {
         font-weight: bold;
-        color: rgb(17, 0, 255);
+        color: #fff;
         font-size: 20px;
+        position: absolute;
+        top: 40px; left: 40px;
 }
+
+.adresse {
+    color: #888;
+    font-size: 18px;
+    position: absolute;
+    top: 250px; left: 60px;
+}
+.adresseb {
+    color: #888;
+    font-size: 18px;
+    position: absolute;
+    top: 270px; left: 60px;
+}
+.adresse2 {
+    color: #888;
+    font-size: 18px;
+    position: absolute;
+    top: 290px; left: 60px;
+}
+
 .card-container:hover {
     transform: scale(1.05);
 }
